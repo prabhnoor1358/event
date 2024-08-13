@@ -22,3 +22,34 @@ body{
     height: 80vh;
     border: 2px solid black;
 }
+
+.form{
+    padding: 25px;
+    width: 60vw;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 25px;
+    box-shadow: 0 0 40px black;
+}
+
+.form > input{
+    display: block;
+    margin: 2vh;
+    width: 80%;
+}
+
+.form > textarea{
+    height: 20vh;
+    display: block;
+    margin: 2vh;
+    width: 80%;
+}
+
+#submit{
+    width: 200px;
+    height: 25px;
+    border:0;
+    margin: 0 auto;
+    background-color: rgb(7, 178, 7);
+    color:#fff;
+}
